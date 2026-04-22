@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+#game-board {
+    display: grid;
+    grid-gap: 1px;
+    background-color: #cccccc;
+    border: 1px solid #cccccc;
+}
+
+#game-board div {
+    background-color: white;
+    font-size: 10px;
+}
+
+#game-board div.s-block {
+    background-color: green;
+}
+
+#game-board div.z-block {
+    background-color: red;
+}
